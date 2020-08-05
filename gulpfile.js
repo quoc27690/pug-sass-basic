@@ -8,12 +8,13 @@ const { src, dest, parallel, watch, series } = require("gulp"),
 
 /** Files Path */
 const FilesPath = {
-  sassFiles: "sass/*.sass",
-  jsFiles: "js/*.js",
-  htmlFiles: "pug/pages/*.pug",
+  sassFiles: "src/sass/**/*.sass",
+  jsFiles: "src/js/*.js",
+  htmlFiles: "src/pug/pages/*.pug",
+  htmlAll: "src/pug/**/*.pug",
 };
 
-const { sassFiles, jsFiles, htmlFiles } = FilesPath;
+const { sassFiles, jsFiles, htmlFiles, htmlAll } = FilesPath;
 
 /** Sass Task */
 function sassTask() {
@@ -42,13 +43,13 @@ function jsTask() {
 function serve() {
   browserSync.init({
     server: {
-      baseDir: "./",
+      baseDir: "public",
     },
   });
 
   watch(sassFiles, sassTask);
   watch(jsFiles, jsTask);
-  watch(htmlFiles, htmlTask);
+  watch(htmlAll, htmlTask);
 }
 
 exports.js = jsTask;
