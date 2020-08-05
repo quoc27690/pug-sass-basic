@@ -4,15 +4,486 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pug-sass-basic</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <header></header>
-    <footer></footer>
+    <header>
+      <div class="wrapper">
+        <div class="wrapper--row">
+          <div class="header__wrapper">
+            <div class="header__left"><a href="#"><img src="https://sun-asterisk.vn/wp-content/uploads/2019/03/Sun-Logotype-RGB-01.png" alt="Sun Logotype RGB-01" width="135" height="47"></a></div>
+            <div class="header__right">
+              <div class="header__right__menu">
+                <ul>
+                  <li><a href="#">Cơ Hội Nghề Nghiệp</a></li>
+                  <li><a href="#">Liên Hệ</a></li>
+                </ul>
+              </div>
+              <div class="header__right__lang"><a href="#">Tiếng Việt</a></div>
+              <div class="header__right__icon"><i class="material-icons icon-menu">menu</i><i class="material-icons icon-close">close</i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main__top-page">
+        <div class="wrapper">
+          <div class="wrapper--column">
+            <p>Hello, world.</p>
+            <h2>JOIN US & MAKE AWESOME THINGS THAT MATTER</h2>
+            <p>H&atilde;y t&#x1B0;&#x1EDF;ng t&#x1B0;&#x1EE3;ng ra m&#x1ED9;t th&#x1EBF; gi&#x1EDB;i n&#x1A1;i t&#x1EA5;t c&#x1EA3; m&#x1ECD;i ng&#x1B0;&#x1EDD;i &dstrok;&#x1EC1;u &dstrok;&#x1B0;&#x1EE3;c t&#x1EF1; do t&#x1EA1;o ra nh&#x1EEF;ng gi&aacute; tr&#x1ECB; tuy&#x1EC7;t v&#x1EDD;i, c&oacute; s&#x1EE9;c m&#x1EA1;nh thay &dstrok;&#x1ED5;i cu&#x1ED9;c s&#x1ED1;ng. Ch&uacute;ng t&ocirc;i theo &dstrok;u&#x1ED5;i &dstrok;am m&ecirc; c&#x1EE7;a ch&iacute;nh m&igrave;nh, c&ugrave;ng nh&igrave;n v&#x1EC1; t&#x1B0;&#x1A1;ng lai. Kh&ocirc;ng ch&#x1EC9; t&#x1ED3;n t&#x1EA1;i, ch&uacute;ng t&ocirc;i s&#x1ED1;ng &dstrok;&#x1EC3; th&#x1EF1;c hi&#x1EC7;n h&oacute;a nh&#x1EEF;ng &#x1B0;&#x1EDB;c m&#x1A1;.<br>T&#x1EA1;i Sun*, t&#x1EA5;t c&#x1EA3; c&aacute;c th&agrave;nh vi&ecirc;n lu&ocirc;n n&#x1ED7; l&#x1EF1;c &dstrok;em &dstrok;&#x1EBF;n l&#x1EF1;a ch&#x1ECD;n t&#x1ED1;t h&#x1A1;n cho m&#x1ECD;i ng&#x1B0;&#x1EDD;i.  &Dstrok;&#x1EE9;ng &#x1EDF; &dstrok;i&#x1EC3;m giao thoa gi&#x1EEF;a c&ocirc;ng ngh&#x1EC7;, kinh doanh v&agrave; gi&aacute;o d&#x1EE5;c, ch&uacute;ng t&ocirc;i s&#x1EBD; mang l&#x1EA1;i s&#x1EF1; thay &dstrok;&#x1ED5;i t&iacute;ch c&#x1EF1;c<br>cho to&agrave;n x&atilde; h&#x1ED9;i.</p>
+            <p>We are obsessed with making awesome things with awesome people.</p>
+            <p>Sun* Inc. CEO &ndash; Taihei Kobayashi</p>
+          </div>
+        </div>
+      </div>
+      <div class="main__vision">
+        <div class="wrapper">
+          <div class="wrapper--column">
+            <p class="title-3">T&#x1EA6;M NH&Igrave;N</p>
+            <p class="desc">T&#x1EA1;o ra th&#x1EBF; gi&#x1EDB;i b&igrave;nh &dstrok;&#x1EB3;ng n&#x1A1;i m&#x1ED7;i ng&#x1B0;&#x1EDD;i &dstrok;&#x1EC1;u c&oacute; c&#x1A1; h&#x1ED9;i mang l&#x1EA1;i nh&#x1EEF;ng gi&aacute; tr&#x1ECB; &ldquo;Awesome&rdquo;.</p>
+            <p class="title-3">S&#x1EE8; M&#x1EC6;NH</p>
+            <p class="desc">C&ugrave;ng nh&#x1EEF;ng con ng&#x1B0;&#x1EDD;i &dstrok;am m&ecirc; th&#x1EED; th&aacute;ch, ch&uacute;ng t&ocirc;i t&#x1EA1;o ra thay &dstrok;&#x1ED5;i t&iacute;ch c&#x1EF1;c cho x&atilde; h&#x1ED9;i th&ocirc;ng qua c&aacute;c s&#x1EA3;n ph&#x1EA9;m v&agrave; l&itilde;nh v&#x1EF1;c kinh doanh.</p>
+          </div>
+        </div>
+      </div>
+      <div class="main__service">
+        <div class="wrapper">
+          <div class="wrapper--column">
+            <p class="title-3">TH&#x1EBE; M&#x1EA0;NH C&#x1EE6;A CH&Uacute;NG T&Ocirc;I</p>
+            <div class="main__service__content">
+              <div class="main__service__left">
+                <h2 class="title-2">M&Ocirc;I TR&#x1AF;&#x1EDC;NG QU&#x1ED0;C T&#x1EBE;<br>KH&Ocirc;NG NG&#x1EEA;NG S&Aacute;NG T&#x1EA0;O</h2>
+                <p>Sun* Inc. (tiền thân là Framgia Inc.), được thành lập vào năm 2012, là một Digital Creative Studio hiện có hơn 1500 thành viên tại 6 thành phố ở 4 quốc gia Châu Á. Mang trên mình sứ mệnh kết nối doanh nghiệp toàn cầu với đội ngũ nhân lực sáng giá nhất châu Á, từ khi thành lập cho đến nay, Sun* luôn nỗ lực để đem tới cho thế giới những giá trị “Awesome”.</p>
+                <p>Chúng tôi liên tục tham gia tư vấn cho khách hàng với tư cách là công ty chuyên nghiệp trên nhiều lĩnh vực khác nhau, không chỉ về lập trình hay thiết kế mà cả quản lý dự án, tư vấn thiết kế và kinh doanh, cung cấp tài chính hay marketing. Cùng với việc gia tăng nhân sự, mảng cung cấp giải pháp của chúng tôi cũng được mở rộng. Không chỉ tạo ra các sản phẩm phần mềm, Sun* còn tạo ra các dịch vụ, lĩnh vực kinh doanh, và thành lập công ty con.</p>
+                <p>Sun* mang hình ảnh của một “Studio”, tập trung những chuyên gia luôn luôn đam mê tìm kiếm giải pháp. Thế giới mà chúng tôi đang hướng tới là thế giới mà ở đó có những con người mang đam mê và hoài bão tạo ra giá trị mới khiến xã hội trở nên tốt đẹp hơn.</p>
+                <p>Để xứng đáng với cái tên gọi “Mặt trời”, chúng tôi sẽ toàn tâm toàn ý, nỗ lực hết mình để nuôi dưỡng mầm ươm mang tên “Awesome things”.</p>
+              </div>
+              <div class="main__service__right">
+                <div class="main__right__left">
+                  <p></p>
+                      <div class="main__left__item">
+                        <div>
+                          <p><img src="https://sun-asterisk.vn/wp-content/uploads/2016/05/code-design.png" alt=""></p>
+                          <h3>SOFTWARE DEVELOPMENT</h3>
+                        </div>
+                        <p><i class="fa fa-check-circle-o"></i><b>Outsourcing:</b> &#x1EE8;ng d&#x1EE5;ng m&ocirc; h&igrave;nh kh&#x1EDF;i nghi&#x1EC7;p Lean startup v&agrave; Agile, h&#x1EE3;p t&aacute;c th&agrave;nh c&ocirc;ng v&#x1EDB;i r&#x1EA5;t nhi&#x1EC1;u startup c&ocirc;ng ngh&#x1EC7; v&agrave; c&aacute;c c&ocirc;ng ty l&#x1EDB;n &dstrok;&#x1EC3; ph&aacute;t tri&#x1EC3;n c&aacute;c d&#x1EF1; &aacute;n ph&#x1EA7;n m&#x1EC1;m y&ecirc;u c&#x1EA7;u t&#x1ED1;c &dstrok;&#x1ED9;, &dstrok;&#x1ED5;i m&#x1EDB;i v&agrave; s&aacute;ng t&#x1EA1;o.<br><i class="fa fa-check-circle-o"></i><b>Products:</b> X&acirc;y d&#x1EF1;ng c&aacute;c s&#x1EA3;n ph&#x1EA9;m c&ocirc;ng ngh&#x1EC7; c&#x1EE7;a ri&ecirc;ng m&igrave;nh: Viblo (Platform chia s&#x1EBB; ki&#x1EBF;n th&#x1EE9;c IT d&agrave;nh ri&ecirc;ng cho c&aacute;c k&#x1EF9; s&#x1B0; Vi&#x1EC7;t Nam); CI/CD (m&ocirc;i tr&#x1B0;&#x1EDD;ng t&iacute;ch h&#x1EE3;p v&agrave; deploy code m&#x1ED9;t c&aacute;ch li&ecirc;n t&#x1EE5;c v&agrave; t&#x1EF1; &dstrok;&#x1ED9;ng); Talky Bird (&#x1EE9;ng d&#x1EE5;ng luy&#x1EC7;n giao ti&#x1EBF;p ti&#x1EBF;ng Nh&#x1EAD;t s&#x1EED; d&#x1EE5;ng c&ocirc;ng ngh&#x1EC7; tr&iacute; tu&#x1EC7; nh&acirc;n t&#x1EA1;o)&mldr;
+                        </p>
+                      </div>
+                      <p></p>
+                      <div class="main__left__item">
+                        <div>
+                          <p><img src="https://sun-asterisk.vn/wp-content/uploads/2019/03/learn.png" alt=""></p>
+                          <h3>RESEARCH &amp;amp; DEVELOPMENT</h3>
+                        </div>
+                        <p><i class="fa fa-check-circle-o"></i> Nghi&ecirc;n c&#x1EE9;u v&agrave; &#x1EE9;ng d&#x1EE5;ng c&ocirc;ng ngh&#x1EC7; 4.0 trong ph&aacute;t tri&#x1EC3;n s&#x1EA3;n ph&#x1EA9;m:<br>&ndash; &#x1EE8;ng d&#x1EE5;ng Deep Learning v&agrave;o c&aacute;c b&agrave;i to&aacute;n x&#x1EED; l&yacute; ng&ocirc;n ng&#x1EEF; t&#x1EF1; nhi&ecirc;n v&#x1EDB;i Ti&#x1EBF;ng Vi&#x1EC7;t v&agrave; ph&acirc;n t&iacute;ch n&abreve;ng l&#x1EF1;c nh&acirc;n s&#x1EF1;.<br>&ndash; &#x1EE8;ng d&#x1EE5;ng Machine Learning c&ugrave;ng c&aacute;c ki&#x1EBF;n th&#x1EE9;c v&#x1EC1; Recommendation System v&agrave; Document Retrieval x&acirc;y d&#x1EF1;ng h&#x1EC7; th&#x1ED1;ng ph&acirc;n t&iacute;ch, &dstrok;&#x1EC1; xu&#x1EA5;t &dstrok;&#x1B0;&#x1EE3;c nh&#x1EEF;ng &#x1EE9;ng vi&ecirc;n ph&ugrave; h&#x1EE3;p cho d&#x1EF1; &aacute;n.<br>&ndash; &#x1EE8;ng d&#x1EE5;ng VR-AR ph&aacute;t tri&#x1EC3;n ph&#x1EA7;n m&#x1EC1;m Virtual Driving (ph&#x1EA7;n m&#x1EC1;m h&#x1ECD;c l&aacute;i xe th&#x1EF1;c t&#x1EBF; &#x1EA3;o).<br>&ndash; Nghi&ecirc;n c&#x1EE9;u c&ocirc;ng ngh&#x1EC7; l&otilde;i v&agrave; ph&aacute;t tri&#x1EC3;n game tr&ecirc;n n&#x1EC1;n t&#x1EA3;ng c&ocirc;ng ngh&#x1EC7; Blockchain (Cipher Cascade).
+                        </p>
+                      </div>
+                      <p></p>
+                </div>
+                <div class="main__right__right">
+                  <p></p>
+                      <div class="main__right__item">
+                        <div>
+                          <p><img src="https://sun-asterisk.vn/wp-content/uploads/2016/05/mobile-app-developing.png" alt=""></p>
+                          <h3>DIGITAL TRANSFORMATION</h3>
+                        </div>
+                        <p><i class="fa fa-check-circle-o"></i> H&#x1ED7; tr&#x1EE3;, ph&aacute;t tri&#x1EC3;n c&aacute;c gi&#x1EA3;i ph&aacute;p chuy&#x1EC3;n &dstrok;&#x1ED5;i k&#x1EF9; thu&#x1EAD;t s&#x1ED1; &dstrok;&#x1EC3; gi&#x1EA3;i quy&#x1EBF;t c&aacute;c v&#x1EA5;n &dstrok;&#x1EC1; kinh doanh c&#x1EE7;a doanh nghi&#x1EC7;p l&#x1EDB;n. Hi&#x1EC7;n t&#x1EA1;i ch&uacute;ng t&ocirc;i &dstrok;ang th&#x1EF1;c hi&#x1EC7;n 5 d&#x1EF1; &aacute;n h&#x1ED7; tr&#x1EE3; trong m&#x1EA3;ng n&agrave;y.
+                        </p>
+                      </div>
+                      <p></p>
+                      <div class="main__right__item">
+                        <div>
+                          <p><img src="https://sun-asterisk.vn/wp-content/uploads/2019/03/Nav-Icons-RosettaOpportunity.png" alt=""></p>
+                          <h3>NEW BUSINESS CO-CREATE</h3>
+                        </div>
+                        <p><i class="fa fa-check-circle-o"></i> Ph&aacute;t huy c&aacute;c &dstrok;&#x1EB7;c tr&#x1B0;ng kinh doanh k&#x1EBF;t h&#x1EE3;p c&ugrave;ng n&abreve;ng l&#x1EF1;c k&#x1EF9; thu&#x1EAD;t m&agrave; Sun* &dstrok;ang c&oacute;, t&#x1EA1;o d&#x1EF1;ng nh&#x1EEF;ng l&itilde;nh v&#x1EF1;c kinh doanh m&#x1EDB;i. Hi&#x1EC7;n t&#x1EA1;i c&oacute; 5 d&#x1EF1; &aacute;n &dstrok;ang trong qu&aacute; tr&igrave;nh th&#x1EF1;c hi&#x1EC7;n.
+                        </p>
+                      </div>
+                      <p></p>
+                      <div class="main__right__item">
+                        <div>
+                          <p><img src="https://sun-asterisk.vn/wp-content/uploads/2019/03/startups-medium-300x225.png" alt=""></p>
+                          <h3>STARTUP</h3>
+                        </div>
+                        <p><i class="fa fa-check-circle-o"></i> Sun* Startups &dstrok;&#x1B0;&#x1EE3;c th&agrave;nh l&#x1EAD;p n&abreve;m 2018, t&#x1EAD;p trung v&agrave;o l&itilde;nh v&#x1EF1;c &#x1B0;&#x1A1;m t&#x1EA1;o Startup. Ch&uacute;ng t&ocirc;i t&igrave;m ki&#x1EBF;m, &dstrok;&#x1ED3;ng h&agrave;nh c&ugrave;ng c&aacute;c &yacute; t&#x1B0;&#x1EDF;ng kh&#x1EDF;i nghi&#x1EC7;p c&oacute; &#x1EE9;ng d&#x1EE5;ng c&ocirc;ng ngh&#x1EC7; th&ocirc;ng tin t&#x1EA1;o ra nh&#x1EEF;ng thay &dstrok;&#x1ED5;i t&iacute;ch c&#x1EF1;c cho cu&#x1ED9;c s&#x1ED1;ng. V&#x1EDB;i c&aacute;c Startup ti&#x1EC1;m n&abreve;ng, ch&uacute;ng t&ocirc;i &dstrok;&#x1EA7;u t&#x1B0; ngu&#x1ED3;n l&#x1EF1;c gi&uacute;p h&#x1ECD; ph&aacute;t tri&#x1EC3;n v&#x1EEF;ng ch&#x1EAF;c qua c&aacute;c giai &dstrok;o&#x1EA1;n: &yacute; t&#x1B0;&#x1EDF;ng (Idea), x&acirc;y d&#x1EF1;ng gi&#x1EA3;i ph&aacute;p (Build) v&agrave; t&abreve;ng t&#x1ED1;c (Boost).<br>S&#x1EE9;c m&#x1EA1;nh Sun* Startups l&agrave; s&#x1EF1; k&#x1EBF;t h&#x1EE3;p gi&#x1EEF;a t&#x1B0; duy khoa h&#x1ECD;c v&#x1EC1; Startup, ngu&#x1ED3;n l&#x1EF1;c n&#x1ED9;i t&#x1EA1;i v&agrave; m&ocirc; h&igrave;nh li&ecirc;n k&#x1EBF;t m&#x1EDF; trong h&#x1EC7; sinh th&aacute;i kh&#x1EDF;i nghi&#x1EC7;p.
+                        </p>
+                      </div>
+                      <p></p>
+                      <div class="main__right__item">
+                        <div>
+                          <p><img src="https://sun-asterisk.vn/wp-content/uploads/2016/05/Edu.png" alt=""></p>
+                          <h3>IT TALENT EDUCATION</h3>
+                        </div>
+                        <p><i class="fa fa-check-circle-o"></i> &Dstrok;&agrave;o t&#x1EA1;o nh&acirc;n s&#x1EF1; IT ti&#x1EBF;ng Nh&#x1EAD;t, k&#x1EBF;t h&#x1EE3;p c&ugrave;ng c&aacute;c tr&#x1B0;&#x1EDD;ng &Dstrok;&#x1EA1;i h&#x1ECD;c h&agrave;ng &dstrok;&#x1EA7;u c&#x1EE7;a Vi&#x1EC7;t Nam, th&agrave;nh l&#x1EAD;p Trung t&acirc;m &dstrok;&agrave;o t&#x1EA1;o l&#x1EAD;p tr&igrave;nh Awesome Academy, du h&#x1ECD;c IT t&#x1EA1;i Philippines, Programming school d&agrave;nh cho sinh vi&ecirc;n &dstrok;&#x1EA1;i h&#x1ECD;c c&#x1EE7;a Nh&#x1EAD;t.
+                        </p>
+                      </div>
+                      <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__client">
+        <div class="wrapper">
+          <div class="wrapper--column">
+            <h3 class="title-3">KH&Aacute;CH H&Agrave;NG TI&Ecirc;U BI&#x1EC2;U</h3>
+            <div class="main__client__content">
+              <input id="r1" type="radio" name="r" checked>
+              <input id="r2" type="radio" name="r">
+              <input id="r3" type="radio" name="r">
+              <input id="r4" type="radio" name="r">
+              <div class="main__client__content--full">
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_comnico.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_cuon.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_basic.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_cakes.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_altplus.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_ascend.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_valuecommerce.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_summertimestudio.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_tokyono1.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_teamlab.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_sonicmoov.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_razona.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_septeni.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_pixta.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_poin.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_myprint.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_open8.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_mangania.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_mindpalette.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_keiouniversity.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_imageworks.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_itandi.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_fello.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_hobonichi.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_eventregist.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_eole.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_datakit.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_adways.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_greenromp.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_zdc.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_yahoo_insyoku.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_verbe.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_uzabase.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_tsumiki.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_temona.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_sunloft.png" alt=""></div>
+                    <div class="main__client__item"><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_eyemovic.png" alt=""><img src="https://sun-asterisk.vn/wp-content/uploads/2016/07/logo_top_cyberagent.png" alt=""></div>
+              </div>
+              <div class="main__client__dots">
+                <label for="r1"></label>
+                <label for="r2"></label>
+                <label for="r3"></label>
+                <label for="r4"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__statistic">
+        <div class="wrapper">
+          <div class="main__statistic__content">
+                <div class="main__statistic__item">
+                  <p><img src="https://sun-asterisk.vn/wp-content/uploads/2016/05/planet-earth.png" alt="" width="36" height="36"></p>
+                  <p>4</p>
+                  <p>Quốc Gia</p>
+                </div>
+                <div class="main__statistic__item">
+                  <p><img src="https://sun-asterisk.vn/wp-content/uploads/2016/05/city.png" alt="" width="36" height="33"></p>
+                  <p>6</p>
+                  <p>Thành Phố</p>
+                </div>
+                <div class="main__statistic__item">
+                  <p><img src="https://sun-asterisk.vn/wp-content/uploads/2016/05/company-workers.png" alt="" width="36" height="33"></p>
+                  <p>1500</p>
+                  <p>Nhân Sự</p>
+                </div>
+                <div class="main__statistic__item">
+                  <p><img src="https://sun-asterisk.vn/wp-content/uploads/2016/05/handshake.png" alt="" width="36" height="29"></p>
+                  <p>200</p>
+                  <p>Khách Hàng</p>
+                </div>
+                <div class="main__statistic__item">
+                  <p><img src="https://sun-asterisk.vn/wp-content/uploads/2016/05/shared-folder.png" alt="" width="" height=""></p>
+                  <p>300</p>
+                  <p>Dự Án</p>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__team">
+        <div class="wrapper">
+          <div class="wrapper--column">
+            <p class="title-3">GI&Aacute; TR&#x1ECA; C&#x1ED0;T L&Otilde;I</p>
+            <div class="main__team__content">
+              <div class="main__content__left">
+                <h2 class="title-2">TR&Acirc;N TR&#x1ECC;NG S&#x1EF0; &Dstrok;A D&#x1EA0;NG<br>H&#x1ED6; TR&#x1EE2; PH&Aacute;T TRI&#x1EC2;N C&Aacute; NH&Acirc;N</h2>
+                <div>
+                  <ul>
+                    <li><i class="material-icons">done</i>Be A Team
+                    </li>
+                    <li><i class="material-icons">done</i>Think Outside The Box
+                    </li>
+                    <li><i class="material-icons">done</i>Get Risky
+                    </li>
+                    <li><i class="material-icons">done</i>Be Optimistic
+                    </li>
+                    <li><i class="material-icons">done</i>Go Fast
+                    </li>
+                    <li><i class="material-icons">done</i>Be Professional
+                    </li>
+                    <li><i class="material-icons">done</i>Stay Focused
+                    </li>
+                  </ul>
+                </div>
+                <p><a href="#">C&#x1A0; H&#x1ED8;I NGH&#x1EC0; NGHI&#x1EC6;P</a></p>
+              </div>
+              <div class="main__content__right">
+                <div class="main__right__slide">
+                  <div class="main__right__slide--full">
+                    <div class="main__slide__items">
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/1.NguyenThanhTungD.jpg" alt=""></div>
+                            <p>Nguyen Thanh Tung D</p>
+                            <p>Strategy Operation Manager</p>
+                          </div>
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/2.BuiXuanTrung.png" alt=""></div>
+                            <p>Bui Xuan Trung</p>
+                            <p>Strategy Operation Manager</p>
+                          </div>
+                    </div>
+                    <div class="main__slide__items">
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/3.TranThiTinh.png" alt=""></div>
+                            <p>Tran Thi Tinh</p>
+                            <p>BrSE</p>
+                          </div>
+                    </div>
+                    <div class="main__slide__items">
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/5.NgoDuySon.jpg" alt=""></div>
+                            <p>Ngo Duy Son</p>
+                            <p>BrSE</p>
+                          </div>
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/6.VuTrungKien.jpg" alt=""></div>
+                            <p>Vu Trung Kien</p>
+                            <p>Section Manager</p>
+                          </div>
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/8.NguyenThiThanhLy.jpg" alt=""></div>
+                            <p>Nguyen Thi Thanh Ly</p>
+                            <p>QA Group Leader</p>
+                          </div>
+                    </div>
+                    <div class="main__slide__items">
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/9.TuBaDuc.jpg" alt=""></div>
+                            <p>Tu Ba Duc</p>
+                            <p>BrSE</p>
+                          </div>
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/10.HoVietTuan" alt=""></div>
+                            <p>Ho Viet Tuan</p>
+                            <p>Ruby Engineer</p>
+                          </div>
+                    </div>
+                    <div class="main__slide__items">
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/11.PhamQuangDinh.jpg" alt=""></div>
+                            <p>Pham Quang Dinh</p>
+                            <p>Development Group Leader</p>
+                          </div>
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/12.VuTuyetMai.jpg" alt=""></div>
+                            <p>Vu Tuyet Mai</p>
+                            <p>BA Officer</p>
+                          </div>
+                    </div>
+                    <div class="main__slide__items">
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/13.NguyenXuanMinhNhat.jpg" alt=""></div>
+                            <p>Nguyen Xuan Minh Nhat</p>
+                            <p>ISO Officer</p>
+                          </div>
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/14.TranXuanDat.jpg" alt=""></div>
+                            <p>Tran Xuan Dat</p>
+                            <p>.NET Engineer</p>
+                          </div>
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/16.TranDucPhong.jpg" alt=""></div>
+                            <p>Tran Duc Phong</p>
+                            <p>Ruby Engineer</p>
+                          </div>
+                    </div>
+                    <div class="main__slide__items">
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/17.PhamVanToan.jpg" alt=""></div>
+                            <p>Pham Van Toan</p>
+                            <p>HR Officer</p>
+                          </div>
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/18.NguyenMyHanh.jpg" alt=""></div>
+                            <p>Nguyen My Hanh</p>
+                            <p>HR Officer</p>
+                          </div>
+                    </div>
+                    <div class="main__slide__items">
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/19.PhungThiHoaiNgoc.jpg" alt=""></div>
+                            <p>Pham Thi Hoai Ngoc</p>
+                            <p>UI/UX Group Leader</p>
+                          </div>
+                          <div class="main__slide__item">
+                            <div><img src="https://sun-asterisk.vn/wp-content/uploads/2018/11/20.NguyenThiHuyenB.jpg" alt=""></div>
+                            <p>Nguyen Thi Huyen B</p>
+                            <p>Accounting Officer</p>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__activity">
+        <div class="wrapper">
+          <p class="title-3">V&Abreve;N H&Oacute;A</p>
+          <h2 class="title-2">HO&#x1EA0;T &Dstrok;&#x1ED8;NG N&#x1ED4;I B&#x1EAC;T</h2>
+          <div class="main__activity__slide">
+            <input id="a1" type="radio" name="a" checked>
+            <input id="a2" type="radio" name="a">
+            <input id="a3" type="radio" name="a">
+            <div class="main__activity__slide--full">
+                  <div class="main__activity__item">
+                    <div><img src="https://sun-asterisk.vn/wp-content/uploads/2016/06/106088259_3140338686001939_5857794266391477797_o.jpg" alt=""></div>
+                    <h3><a href="#">Lễ Tốt Nghiệp Của Sun* Academy 2020</a></h3>
+                    <p>Vừa qua, Sun* Academy đã tổ chức Lễ tốt nghiệp cho các lớp: Lập trình Ruby, Lập trình PHP, và Lập trình Android. Với đầu vào gồm các học viên chuyên ngành IT và cả các chuyên ngành khác, khóa học đã thành công tốt đẹp với tỉ lệ tìm được việc làm sau khi tốt nghiệp là 100%.
+                    </p>
+                    <p><i class="material-icons">query_builder</i>30/06/2020
+                    </p>
+                  </div>
+                  <div class="main__activity__item">
+                    <div><img src="https://sun-asterisk.vn/wp-content/uploads/2016/06/103007453_3092500077452467_5947096971238418166_o.jpg" alt=""></div>
+                    <h3><a href="#">Sun* Startups Và Songhan Incubator Khai Mạc Chương Trình “Ươm Tạo Khởi Nghiệp”</a></h3>
+                    <p>Ngày 15/06 vừa qua, Sun* Startups Studio Vietnam (SSV) kết hợp cùng Songhan Incubator khai mạc chương trình “Ươm tạo khởi nghiệp” Batch 1.
+                    </p>
+                    <p><i class="material-icons">query_builder</i>15/06/2020
+                    </p>
+                  </div>
+                  <div class="main__activity__item">
+                    <div><img src="https://sun-asterisk.vn/wp-content/uploads/2016/06/99424908_3044708202231655_3671379267716907008_o.jpg" alt=""></div>
+                    <h3><a href="#">Tưng Bừng Cùng Men’s Day 2020</a></h3>
+                    <p>Ngày thứ 6 cuối cùng của tháng 5 đã đến, với ngày lễ đặc biệt dành riêng cho cánh mày râu công ty. Tại các văn phòng Sun*, có thể dễ dàng bắt gặp khung cảnh các chị em rộn ràng chuẩn bị cho sự kiện một năm chỉ có một lần.
+                    </p>
+                    <p><i class="material-icons">query_builder</i>29/05/2020
+                    </p>
+                  </div>
+                  <div class="main__activity__item">
+                    <div><img src="https://sun-asterisk.vn/wp-content/uploads/2016/06/95864680_2997596386942837_4864267985633673216_o.jpg" alt=""></div>
+                    <h3><a href="#">Sunners hào hứng quay lại văn phòng sau 2 tháng làm việc remote với món quà đặc biệt</a></h3>
+                    <p>Các thành viên đã nhận được hai món quà ý nghĩa từ công ty, đó là hai chiếc khẩu trang vải kháng khuẩn và quà công đoàn. Đây đã là lần thứ hai thành viên Sun* được công ty “tiếp sức” khẩu trang cho mùa đại dịch.
+                    </p>
+                    <p><i class="material-icons">query_builder</i>08/05/2020
+                    </p>
+                  </div>
+                  <div class="main__activity__item">
+                    <div><img src="https://sun-asterisk.vn/wp-content/uploads/2016/06/89702177_2847740411928436_8109757630559289344_o.jpg" alt=""></div>
+                    <h3><a href="#">Chương trình đặc biệt dành tặng chị em Sunners nhân dịp 8/3</a></h3>
+                    <p>Trong không khí nô nức mừng ngày Quốc tế Phụ nữ 8/3, những bông hồng tại văn phòng Hà Nội, Đà Nẵng và Hồ Chí Minh tưng bừng mừng nhộn nhịp tham dự chương trình đặc biệt do các nam Sunners dày công chuẩn bị.
+                    </p>
+                    <p><i class="material-icons">query_builder</i>08/03/2020
+                    </p>
+                  </div>
+                  <div class="main__activity__item">
+                    <div><img src="https://sun-asterisk.vn/wp-content/uploads/2016/06/103007453_3092500077452467_5947096971238418166_o.jpg" alt=""></div>
+                    <h3><a href="#">Sun* Startups Và Songhan Incubator Khai Mạc Chương Trình “Ươm Tạo Khởi Nghiệp”</a></h3>
+                    <p>Ngày 15/06 vừa qua, Sun* Startups Studio Vietnam (SSV) kết hợp cùng Songhan Incubator khai mạc chương trình “Ươm tạo khởi nghiệp” Batch 1.
+                    </p>
+                    <p><i class="material-icons">query_builder</i>15/06/2020
+                    </p>
+                  </div>
+                  <div class="main__activity__item">
+                    <div><img src="https://sun-asterisk.vn/wp-content/uploads/2016/06/99424908_3044708202231655_3671379267716907008_o.jpg" alt=""></div>
+                    <h3><a href="#">Tưng Bừng Cùng Men’s Day 2020</a></h3>
+                    <p>Ngày thứ 6 cuối cùng của tháng 5 đã đến, với ngày lễ đặc biệt dành riêng cho cánh mày râu công ty. Tại các văn phòng Sun*, có thể dễ dàng bắt gặp khung cảnh các chị em rộn ràng chuẩn bị cho sự kiện một năm chỉ có một lần.
+                    </p>
+                    <p><i class="material-icons">query_builder</i>29/05/2020
+                    </p>
+                  </div>
+                  <div class="main__activity__item">
+                    <div><img src="https://sun-asterisk.vn/wp-content/uploads/2016/06/95864680_2997596386942837_4864267985633673216_o.jpg" alt=""></div>
+                    <h3><a href="#">Sunners hào hứng quay lại văn phòng sau 2 tháng làm việc remote với món quà đặc biệt</a></h3>
+                    <p>Các thành viên đã nhận được hai món quà ý nghĩa từ công ty, đó là hai chiếc khẩu trang vải kháng khuẩn và quà công đoàn. Đây đã là lần thứ hai thành viên Sun* được công ty “tiếp sức” khẩu trang cho mùa đại dịch.
+                    </p>
+                    <p><i class="material-icons">query_builder</i>08/05/2020
+                    </p>
+                  </div>
+                  <div class="main__activity__item">
+                    <div><img src="https://sun-asterisk.vn/wp-content/uploads/2016/06/89702177_2847740411928436_8109757630559289344_o.jpg" alt=""></div>
+                    <h3><a href="#">Chương trình đặc biệt dành tặng chị em Sunners nhân dịp 8/3</a></h3>
+                    <p>Trong không khí nô nức mừng ngày Quốc tế Phụ nữ 8/3, những bông hồng tại văn phòng Hà Nội, Đà Nẵng và Hồ Chí Minh tưng bừng mừng nhộn nhịp tham dự chương trình đặc biệt do các nam Sunners dày công chuẩn bị.
+                    </p>
+                    <p><i class="material-icons">query_builder</i>08/03/2020
+                    </p>
+                  </div>
+            </div>
+            <div class="main__activity__dots">
+              <label for="a1"></label>
+              <label for="a2"></label>
+              <label for="a3"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__career">
+        <h2>GIA NH&#x1EAC;P &Dstrok;&#x1ED8;I NG&Utilde; S&Aacute;NG T&#x1EA0;O</h2>
+        <p><a href="#">c&#x1A0; H&#x1ED8;I NGH&#x1EC0; NGHI&#x1EC6;P</a></p>
+      </div>
+    </main>
+    <footer>
+      <div class="wrapper">
+        <div class="footer__sun">
+          <h5>Sun* Inc.</h5>
+        </div>
+        <div class="footer__top">
+          <div class="footer__top__left">
+                <h5>Hanoi Office</h5>
+                <h6>Keangnam</h6><i class="material-icons">room </i>
+                <p>13F Keangnam Hanoi Landmark 72 Tower, Plot E6, Pham Hung Road, Nam Tu Liem Dist., Ha Noi</p><i class="material-icons">phone </i>
+                <p>84-24-3795-5417</p>
+                <h6>Handico </h6><i class="material-icons">room </i>
+                <p>11F Handico Building, Pham Hung Road, Nam Tu Liem Dist., Ha Noi</p>
+          </div>
+          <div class="footer__top__middle-1">
+                <h5>Training Office</h5>
+                <h6>Handico</h6><i class="material-icons">room </i>
+                <p>11F Handico Building, Pham Hung Road, Nam Tu Liem Dist., Ha Noi</p>
+          </div>
+          <div class="footer__top__middle-2">
+                <h5>Da Nang Office</h5><i class="material-icons">room </i>
+                <p>4F, FHome Building, 16 Ly Thuong Kiet Str., Hai Chau district, Da Nang</p>
+          </div>
+          <div class="footer__top__right">
+                <h5>Ho Chi Minh Office</h5><i class="material-icons">room </i>
+                <p>8F Nice building, 467 Dien Bien Phu Str., Ward 25, Binh Thanh district, HCMC</p>
+          </div>
+        </div>
+        <div class="footer__middle">
+          <h5>Find more about our international offices</h5>
+          <ul>
+            <li>Tokyo Office</li>
+            <li>Cebu Office</li>
+            <li>Phnom Penh Office</li>
+            <li><a href="#"><i class="material-icons">room </i>Check world map</a></li>
+          </ul>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom__left">
+            <p class="copy">@ 2019 Sun* Inc. All rights reserved.</p>
+          </div>
+          <div class="footer__bottom__right">
+            <p>Follow Life at Sun* on:</p>
+            <ul>
+              <li><a class="fa fa-facebook" href="#"></a></li>
+              <li><a class="fa fa-linkedin" href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="../assets/js/scripts.js"></script>
+    <script src="./js/scripts.js"></script>
   </body>
 </html>
