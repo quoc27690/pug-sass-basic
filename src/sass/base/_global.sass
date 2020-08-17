@@ -1,4 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import ../base/_mixins
+
+*
+  box-sizing: border-box
+
 body
-  color: red
-  background: red
-  align-content: center
+  margin: 0
+  font-family: "Open Sans", Arial, sans-serif
+  @include font(14px, 300, 1.4)
+
+h1,h2,h3,h4,h5,h6 
+  color: inherit
+  font-weight: 900
+
+h5
+  margin-bottom: 10px
+  color: #fff
+  @include font('', bold, 24px)
+
+h6
+  margin: 0
+  @include font(12px, bold, 1.2)
+
+ul
+  margin: 0
+  padding: 0
+
+  & li
+    list-style: none
+
+a
+  text-decoration: none
+  transition: all 0.3s
+
+  &:hover
+    text-decoration: none
+
+p
+  margin: 0 0 10px
+    
+.wrapper
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  @include ml-mr(auto, auto)
+
+  @include sm 
+    max-width: 290px
+  @include sm 
+    max-width: 480px
+  @include md 
+    max-width: 780px
+  @include lg 
+    max-width: 960px    
+  @include xl 
+    max-width: 1170px
+
+  &--row
+    display: flex;
+    @include ml-mr(-15px, -15px)
+    
+  
+  &--column
+    display: flex;
+    flex-direction: column
+    @include ml-mr(-15px, -15px)
+      

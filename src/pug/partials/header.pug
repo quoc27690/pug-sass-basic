@@ -1,1 +1,20 @@
+include ../base/variables/_variables-header
+
 header
+  .wrapper
+    .wrapper--row
+      .header__wrapper
+        .header__left
+          a(href='#')
+            img(src="https://sun-asterisk.vn/wp-content/uploads/2019/03/Sun-Logotype-RGB-01.png" alt="Sun Logotype RGB-01" width='135' height='47')
+        .header__right
+          .header__right__menu
+            ul
+              each menu in menus
+                li
+                  a(href='#')= menu
+          .header__right__lang
+            a(href='#') Tiếng Việt
+          .header__right__icon
+            i.material-icons.icon-menu menu
+            i.material-icons.icon-close close

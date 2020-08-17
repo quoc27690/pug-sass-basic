@@ -1,0 +1,41 @@
+@import ./_variables
+
+@mixin xs {@media (max-width: $sm - 1px)    
+  @content}
+
+@mixin sm {@media (min-width: $sm)    
+  @content}
+
+@mixin md {@media (min-width: $md)    
+  @content}
+
+@mixin lg {@media (min-width: $lg)    
+  @content}
+
+@mixin xl {@media (min-width: $xl)
+  @content}
+
+@mixin font($s:inherit, $w:inherit, $h:inherit)
+  font-size: $s
+  font-weight: $w
+  line-height: $h
+
+@mixin pl-pr($left, $right)
+  padding-left: $left
+  padding-right: $right
+
+@mixin ml-mr($left, $right)
+  margin-left: $left
+  margin-right: $right
+
+@mixin kf-client($p0, $p25, $p50, $p75, $p100)
+  0%
+    transform: translateX($p0)
+  25%
+    transform: translateX($p25)
+  50%
+    transform: translateX($p50)
+  75%
+    transform: translateX($p75)
+  100%
+    transform: translateX($p100)

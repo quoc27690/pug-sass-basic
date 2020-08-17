@@ -21,7 +21,7 @@ function sassTask() {
   return src(sassFiles)
     .pipe(sass({ outputStyle: "compressed" }))
     .pipe(concat("styles.css"))
-    .pipe(dest("assets/css"))
+    .pipe(dest("public/css"))
     .pipe(browserSync.stream());
 }
 
@@ -35,7 +35,7 @@ function htmlTask() {
 
 /** JS Task */
 function jsTask() {
-  return src(jsFiles).pipe(concat("scripts.js")).pipe(dest("assets/js"));
+  return src(jsFiles).pipe(concat("scripts.js")).pipe(dest("public/js"));
 }
 
 /** Watch Task */

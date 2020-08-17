@@ -1,1 +1,45 @@
+include ../base/variables/_variables-footer
+
 footer
+  .wrapper
+    .footer__sun
+      h5 Sun* Inc.
+    .footer__top
+      .footer__top__left
+        +footer__top__item('Hanoi Office', '11F Handico Building, Pham Hung Road, Nam Tu Liem Dist., Ha Noi')
+          h6 Keangnam
+          i.material-icons room 
+          p 13F Keangnam Hanoi Landmark 72 Tower, Plot E6, Pham Hung Road, Nam Tu Liem Dist., Ha Noi
+          i.material-icons phone 
+          p 84-24-3795-5417
+          h6 Handico 
+      .footer__top__middle-1
+        +footer__top__item('Training Office', '11F Handico Building, Pham Hung Road, Nam Tu Liem Dist., Ha Noi')
+          h6 Handico
+      .footer__top__middle-2
+        +footer__top__item('Da Nang Office', '4F, FHome Building, 16 Ly Thuong Kiet Str., Hai Chau district, Da Nang')
+      .footer__top__right
+        +footer__top__item('Ho Chi Minh Office', '8F Nice building, 467 Dien Bien Phu Str., Ward 25, Binh Thanh district, HCMC')
+
+    .footer__middle
+      h5 Find more about our international offices
+      ul
+        each office in offices
+          if office == 'Check world map'
+            li
+              a(href='#')
+                i.material-icons room 
+                = office
+          else
+            li= office
+
+    .footer__bottom
+      .footer__bottom__left
+        p.copy @ 2019 Sun* Inc. All rights reserved.
+      .footer__bottom__right
+        p Follow Life at Sun* on:
+        ul
+          each item in social
+            li
+              a(class=item href='#')
+

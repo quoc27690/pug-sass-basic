@@ -1,0 +1,65 @@
+mixin main__left__item(link, title)
+  .main__left__item
+    div
+      p
+        img(src=link alt='')
+      h3= title
+    p
+      i.fa.fa-check-circle-o
+      if block
+        block
+      else
+        p Nothing...
+  p
+
+mixin main__right__item(link, title)
+  .main__right__item
+    div
+      p
+        img(src=link alt='')
+      h3= title
+    p
+      i.fa.fa-check-circle-o
+      if block
+        block
+      else
+        p Nothing...
+  p
+
+mixin main__client__item(link1, link2)
+  .main__client__item
+    img(src=link1 alt='')
+    img(src=link2 alt='')
+
+mixin main__statistic__item(link, width, height, num, text)
+  .main__statistic__item
+    p
+      img(src=link alt='' width=width height=height)
+    p= num
+    p= text
+
+mixin main__slide__item(link, name, title)
+  .main__slide__item
+    div
+      img(src=link alt='')
+    p= name
+    p= title
+
+mixin main__activity__item(link, text1, text2, day)
+  .main__activity__item
+    div
+      img(src=link alt='')
+    h3
+      a(href='#')= text1
+    p
+      = text2
+    p
+      i.material-icons query_builder
+      = day
+
+mixin footer__top__item(text1, text2)
+  h5= text1
+  if block
+    block
+  i.material-icons room 
+  p= text2
